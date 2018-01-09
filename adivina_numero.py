@@ -1,39 +1,10 @@
-# -*- coding: utf-8 -*-
 
-# Tipos
-"Hola"          # String, cadena de texto
-3               # Number, numero
-True / False    # Boolean
+numero_ganador = 7
 
-# Asignación - reglas
-numero = 34
-texto = "Hola"
-verdadero = True
+numero_usuario = int(input("Adivina el numero: "))
 
-# Operaciones
-3 + 4
-"Hola " + "Mundo"
-4 - 2
-2 * 4
-6 / 3
-
-# Operaciones booleanas - devuelven verdadero o falso
-2 == 2
-3 == 2
-2 < 1
-3 > 1
-3 >= 3
-4 >= 20
-
-# Funciones - parametros y return
-print("Adivina que número estoy pensando")
-input("Dime un número")
-max(2, 3, 4, 3, 1)
-min(2, 3, 4, 1)
-
-# Estructuras de control
-if 3 == 3:
-    print("Son iguales")
+if numero_ganador == numero_usuario:
+    print("Has adivinado!")
 else:
-    print("Son distintos")
+    print("Has perdido")
 
