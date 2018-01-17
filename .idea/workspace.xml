@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bc209b7f-4b4b-47df-afc8-9a07bdf4e8ac" name="Default" comment="Añadiendo combate pokemon">
-      <change beforePath="" afterPath="$PROJECT_DIR$/lista_compra_while.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/preguntar_infinito.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/vocal_o_consonante.py" />
+    <list default="true" id="bc209b7f-4b4b-47df-afc8-9a07bdf4e8ac" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/format.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -96,11 +94,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="vocal_o_consonante.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="vocal_o_consonante.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vocal_o_consonante.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="4" column="22" lean-forward="false" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="28" />
+            <state relative-caret-position="220">
+              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="format.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/format.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -138,6 +146,7 @@
         <option value="$PROJECT_DIR$/lista_compra_while.py" />
         <option value="$PROJECT_DIR$/preguntar_infinito.py" />
         <option value="$PROJECT_DIR$/vocal_o_consonante.py" />
+        <option value="$PROJECT_DIR$/format.py" />
       </list>
     </option>
   </component>
@@ -192,7 +201,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.vocal_o_consonante">
+  <component name="RunManager" selected="Python.format">
     <configuration name="combate_pokemon" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -211,7 +220,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="ejemplo_while" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="format" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -223,7 +232,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="prueba" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ejemplo_while.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/format.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -284,19 +293,19 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.ejemplo_while" />
-      <item index="1" class="java.lang.String" itemvalue="Python.combate_pokemon" />
-      <item index="2" class="java.lang.String" itemvalue="Python.lista_compra_while" />
-      <item index="3" class="java.lang.String" itemvalue="Python.preguntar_infinito" />
-      <item index="4" class="java.lang.String" itemvalue="Python.vocal_o_consonante" />
+      <item index="0" class="java.lang.String" itemvalue="Python.combate_pokemon" />
+      <item index="1" class="java.lang.String" itemvalue="Python.lista_compra_while" />
+      <item index="2" class="java.lang.String" itemvalue="Python.preguntar_infinito" />
+      <item index="3" class="java.lang.String" itemvalue="Python.vocal_o_consonante" />
+      <item index="4" class="java.lang.String" itemvalue="Python.format" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.vocal_o_consonante" />
-        <item index="1" class="java.lang.String" itemvalue="Python.preguntar_infinito" />
-        <item index="2" class="java.lang.String" itemvalue="Python.lista_compra_while" />
-        <item index="3" class="java.lang.String" itemvalue="Python.combate_pokemon" />
-        <item index="4" class="java.lang.String" itemvalue="Python.ejemplo_while" />
+        <item index="0" class="java.lang.String" itemvalue="Python.format" />
+        <item index="1" class="java.lang.String" itemvalue="Python.vocal_o_consonante" />
+        <item index="2" class="java.lang.String" itemvalue="Python.preguntar_infinito" />
+        <item index="3" class="java.lang.String" itemvalue="Python.lista_compra_while" />
+        <item index="4" class="java.lang.String" itemvalue="Python.combate_pokemon" />
       </list>
     </recent_temporary>
   </component>
@@ -335,18 +344,25 @@
       <option name="project" value="LOCAL" />
       <updated>1515840420217</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Añadiendo ejercicios for y listas parte 1">
+      <created>1516185716440</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1516185716440</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="1164" y="213" width="1341" height="816" extended-state="0" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19339985" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19339985" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34039333" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42205882" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.42205882" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -367,7 +383,8 @@
     <MESSAGE value="Añadiendo el archivo hello" />
     <MESSAGE value="Creado juego de adivinar número" />
     <MESSAGE value="Añadiendo combate pokemon" />
-    <option name="LAST_COMMIT_MESSAGE" value="Añadiendo combate pokemon" />
+    <MESSAGE value="Añadiendo ejercicios for y listas parte 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Añadiendo ejercicios for y listas parte 1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -411,14 +428,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/combate_pokemon.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="22" lean-forward="false" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lista_compra_while.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -798,8 +807,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/vocal_o_consonante.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="22" lean-forward="false" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="28" />
+        <state relative-caret-position="220">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/format.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding />
         </state>
       </provider>
