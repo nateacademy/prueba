@@ -3,6 +3,7 @@ import pickle
 from time import sleep
 from tkinter import *
 from tkinter import ttk
+from contact import Contact
 
 
 ACTION_ADD_CONTACT = 1
@@ -36,11 +37,7 @@ def show_menu():
 
 
 def add_contact(contacts, name, phone, email):
-    contact = {
-        "name": name,
-        "phone": phone,
-        "email": email
-    }
+    contact = Contact(name, phone, email)
     contacts.append(contact)
     return contact
 
@@ -48,15 +45,15 @@ def add_contact(contacts, name, phone, email):
 def add_contact_tk(contacts, name, phone, email, frame_contact_list):
     contact = add_contact(contacts, name, phone, email)
     cols, row = frame_contact_list.grid_size()
-    ttk.Label(frame_contact_list, text=contact["name"]).grid(column=1, row=row)
-    ttk.Label(frame_contact_list, text=contact["email"]).grid(column=2, row=row)
-    ttk.Label(frame_contact_list, text=contact["phone"]).grid(column=3, row=row)
+    ttk.Label(frame_contact_list, text=contact.name).grid(column=1, row=row)
+    ttk.Label(frame_contact_list, text=contact.email).grid(column=2, row=row)
+    ttk.Label(frame_contact_list, text=contact.phone).grid(column=3, row=row)
 
 
 def ask_new_contact(contacts):
     print("\n\nAñadir contacto\n")
     contact = add_contact(contacts, input("Nombre: "), input("Teléfono: "), input("Email: "))
-    print("Se ha añadido el contacto {} correctamente\n".format(contact["name"]))
+    print("Se ha añadido el contacto {} correctamente\n".format(contact))
     sleep(2)
 
 
@@ -74,9 +71,9 @@ def find_contact(contacts):
     contact_counter = 0
 
     for contact in contacts:
-        if contact["name"].find(search_term) >= 0:
+        if contact.name.find(search_term) >= 0:
             found_contacts.append(contact)
-            print("{} - {}".format(contact_counter, contact["name"]))
+            print("{} - {}".format(contact_counter, contact.name))
             contact_indexes.append(contact_counter)
             contact_counter += 1
 
@@ -88,8 +85,9 @@ def find_contact(contacts):
         print("No se ha encontrado ninguno.")
         return
 
-    print("\nInformación sobre {}\n".format(found_contacts[contact_index]["name"]))
-    print("Nombre: {name}, Telefono: {phone}, Email: {email}\n\n".format(**found_contacts[contact_index]))
+    print("\nInformación sobre {}\n".format(found_contacts[contact_index].name))
+    contact = found_contacts[contact_index]
+    contact.print_data()
     sleep(2)
 
 
