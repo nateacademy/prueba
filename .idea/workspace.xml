@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bc209b7f-4b4b-47df-afc8-9a07bdf4e8ac" name="Default" comment="">
+    <list default="true" id="bc209b7f-4b4b-47df-afc8-9a07bdf4e8ac" name="Default" comment="Añadiendo ejemplo blackjack">
+      <change afterPath="$PROJECT_DIR$/blackjack_ui/blackjack.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blackjack.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,103 +12,63 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/prueba$blackjack__1_.coverage" NAME="blackjack (1) Coverage Results" MODIFIED="1532647294326" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/blackjack" />
+    <SUITE FILE_PATH="coverage/prueba$blackjack__2_.coverage" NAME="blackjack (2) Coverage Results" MODIFIED="1533298067395" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/blackjack_ui" />
+  </component>
   <component name="FUSProjectUsageTrigger">
     <session id="1772462713">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.2" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.4" value="4" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.opened" value="7" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="8510" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="8510" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="png" value="5" />
+          <entry key="py" value="12" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Image" value="5" />
+          <entry key="Python" value="12" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/contact/main.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2091">
-              <caret line="128" column="41" selection-start-line="128" selection-start-column="33" selection-end-line="128" selection-end-column="41" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/blackjack/blackjack.py">
+        <entry file="file://$PROJECT_DIR$/blackjack_ui/blackjack.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="103" column="30" selection-start-line="103" selection-start-column="30" selection-end-line="103" selection-end-column="30" />
+            <state relative-caret-position="-1462">
+              <caret line="61" column="18" selection-start-line="61" selection-start-column="18" selection-end-line="61" selection-end-column="18" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/objects.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/combate_pokemon/combate_pokemon_oo.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1122">
-              <caret line="66" column="14" selection-start-line="66" selection-start-column="14" selection-end-line="66" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/combate_pokemon/combate_pokemon.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/contact/contact.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/prueba_clases.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="27" selection-start-line="27" selection-end-line="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/clases_naturaleza.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_tkinter.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="748">
-              <caret line="45" selection-start-line="45" selection-end-line="45" selection-end-column="15" />
-              <folding>
-                <element signature="e#0#21#0" expanded="true" />
+                <marker date="1533379916866" expanded="true" signature="151:156" ph="..." />
+                <marker date="1533379916866" expanded="true" signature="377:378" ph="..." />
+                <marker date="1533379916866" expanded="true" signature="377:529" ph="..." />
+                <marker date="1533379916866" expanded="true" signature="922:923" ph="..." />
+                <marker date="1533379916866" expanded="true" signature="1434:2635" ph="..." />
+                <marker date="1533379916866" expanded="true" signature="3206:3261" ph="..." />
+                <marker date="1533379916866" expanded="true" signature="5932:6293" ph="..." />
+                <marker date="1533379916866" expanded="true" signature="6312:6797" ph="..." />
               </folding>
             </state>
           </provider>
@@ -124,15 +85,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>load_contacts</find>
-      <find>pickle</find>
-      <find>c</find>
-      <find>return []</find>
-      <find>ask_new_contact</find>
-      <find>contact_list</find>
-      <find>weight</find>
-      <find>Contact</find>
-      <find>Contact(</find>
       <find>contacts</find>
       <find>mi_charmander = Charmander()</find>
       <find>main</find>
@@ -141,8 +93,28 @@
       <find>vida</find>
       <find>Player</find>
       <find>ImageTk</find>
-      <find>Image</find>
       <find>frame_contact_list</find>
+      <find>Deck</find>
+      <find>ttk.Label</find>
+      <find>Image</find>
+      <find>Image(</find>
+      <find>click</find>
+      <find>number_of_cards_per_row</find>
+      <find>=self.</find>
+      <find>self.ui_root.mainloop()</find>
+      <find>on_</find>
+      <find>pas</find>
+      <find>ui_</find>
+      <find>ui_table_frame</find>
+      <find>ttk.Frame</find>
+      <find>tkinter</find>
+      <find>self.tk_img_card_back</find>
+      <find>does_player_win</find>
+      <find>card_asset</find>
+      <find>dealer_card</find>
+      <find>calculate_dealer_score</find>
+      <find>calculate_player_score</find>
+      <find>?</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -186,6 +158,7 @@
         <option value="$PROJECT_DIR$/contact/contact.py" />
         <option value="$PROJECT_DIR$/blackjack.py" />
         <option value="$PROJECT_DIR$/blackjack/blackjack.py" />
+        <option value="$PROJECT_DIR$/blackjack_ui/blackjack.py" />
       </list>
     </option>
   </component>
@@ -196,10 +169,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="766" />
-    <option name="y" value="118" />
-    <option name="width" value="2265" />
-    <option name="height" value="1845" />
+    <option name="x" value="1280" />
+    <option name="y" value="32" />
+    <option name="width" value="1268" />
+    <option name="height" value="1243" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -218,13 +191,7 @@
             <path>
               <item name="prueba" type="b2602c69:ProjectViewProjectNode" />
               <item name="prueba" type="462c0819:PsiDirectoryNode" />
-              <item name="blackjack" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="prueba" type="b2602c69:ProjectViewProjectNode" />
-              <item name="prueba" type="462c0819:PsiDirectoryNode" />
-              <item name="blackjack" type="462c0819:PsiDirectoryNode" />
-              <item name="playing-cards-assets" type="462c0819:PsiDirectoryNode" />
+              <item name="blackjack_ui" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -234,8 +201,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/blackjack_ui/assets" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -258,7 +225,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.blackjack (1)">
+  <component name="RunManager" selected="Python.blackjack (2)">
     <configuration name="blackjack (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="prueba" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -273,6 +240,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/blackjack/blackjack.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="blackjack (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="prueba" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/blackjack_ui" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/blackjack_ui/blackjack.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -325,28 +314,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="combate_pokemon_oo" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="prueba" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\ijgen\PycharmProjects\prueba\combate_pokemon\combate_pokemon_oo.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="prueba" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -371,18 +338,18 @@
     </configuration>
     <list>
       <item itemvalue="Python.main" />
-      <item itemvalue="Python.combate_pokemon_oo" />
       <item itemvalue="Python.combate_pokemon" />
       <item itemvalue="Python.blackjack" />
       <item itemvalue="Python.blackjack (1)" />
+      <item itemvalue="Python.blackjack (2)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.blackjack (2)" />
         <item itemvalue="Python.blackjack (1)" />
         <item itemvalue="Python.main" />
         <item itemvalue="Python.blackjack" />
         <item itemvalue="Python.combate_pokemon" />
-        <item itemvalue="Python.combate_pokemon_oo" />
       </list>
     </recent_temporary>
   </component>
@@ -474,21 +441,27 @@
       <option name="project" value="LOCAL" />
       <updated>1525881441143</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Añadiendo ejemplo blackjack">
+      <created>1532642944473</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1532642944473</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="511" y="79" width="1510" height="896" extended-state="0" />
+    <frame x="1280" y="32" width="1268" height="1243" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.14455445" visible="true" weight="0.26324505" />
+      <window_info id="Structure" order="1" sideWeight="0.85544556" side_tool="true" weight="0.25385934" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32977587" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2859025" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.37944663" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2239902" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.37634408" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -496,11 +469,13 @@
       <window_info anchor="bottom" id="Python Console" order="8" weight="0.3291536" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.34039333" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="SciView" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -551,6 +526,11 @@
           <line>17</line>
           <option name="timeStamp" value="51" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/venv2/Lib/site-packages/PIL/ImageTk.py</url>
+          <line>129</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
@@ -565,11 +545,17 @@
         <watch expression="frame_add_contact.grid_size()" language="Python" />
         <watch expression="self.count_table_cards()" language="Python" />
         <watch expression="Random.randint(0, len(self.cards))" language="Python" />
+        <watch expression="self.game.get_table_cards_count()" language="Python" />
       </configuration>
     </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
+      <expression>
+        <expression-string>self.game.get_table_cards_count()</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>Random.randint(0, len(self.cards))</expression-string>
         <language-id>Python</language-id>
@@ -758,9 +744,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2091">
           <caret line="128" column="41" selection-start-line="128" selection-start-column="33" selection-end-line="128" selection-end-column="41" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -785,6 +768,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/venv2/Lib/site-packages/PIL/_util.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv2/Lib/site-packages/PIL/Image.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="2571" selection-start-line="2571" selection-end-line="2571" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="311" selection-start-line="311" selection-end-line="311" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clases_naturaleza.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="6" lean-forward="true" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blackjack/playing-cards-assets/png/2_of_spades.png" />
+    <entry file="file://$PROJECT_DIR$/prueba_clases.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" lean-forward="true" selection-start-column="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/contact/contact.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -792,36 +811,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/prueba_clases.py">
+    <entry file="file://$PROJECT_DIR$/venv2/Lib/site-packages/PIL/ImageTk.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="224">
+          <caret line="216" column="42" selection-start-line="216" selection-start-column="39" selection-end-line="216" selection-end-column="42" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/clases_naturaleza.py">
+    <entry file="file://$PROJECT_DIR$/blackjack/blackjack.py" />
+    <entry file="file://$PROJECT_DIR$/blackjack_ui/card_assets/png/8_of_diamonds.png" />
+    <entry file="file://$PROJECT_DIR$/blackjack_ui/card_assets/png/red_joker.png" />
+    <entry file="file://$PROJECT_DIR$/blackjack_ui/card_assets/png/back@2x.png" />
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/tkinter/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="39134">
+          <caret line="2305" column="22" selection-start-line="2305" selection-start-column="22" selection-end-line="2305" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test_tkinter.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="45" selection-start-line="45" selection-end-line="45" selection-end-column="15" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="391">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blackjack/blackjack.py">
+    <entry file="file://$PROJECT_DIR$/blackjack_ui/assets/png/back.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blackjack_ui/blackjack.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="103" column="30" selection-start-line="103" selection-start-column="30" selection-end-line="103" selection-end-column="30" />
+        <state relative-caret-position="-1462">
+          <caret line="61" column="18" selection-start-line="61" selection-start-column="18" selection-end-line="61" selection-end-column="18" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
+            <marker date="1533379916866" expanded="true" signature="151:156" ph="..." />
+            <marker date="1533379916866" expanded="true" signature="377:378" ph="..." />
+            <marker date="1533379916866" expanded="true" signature="377:529" ph="..." />
+            <marker date="1533379916866" expanded="true" signature="922:923" ph="..." />
+            <marker date="1533379916866" expanded="true" signature="1434:2635" ph="..." />
+            <marker date="1533379916866" expanded="true" signature="3206:3261" ph="..." />
+            <marker date="1533379916866" expanded="true" signature="5932:6293" ph="..." />
+            <marker date="1533379916866" expanded="true" signature="6312:6797" ph="..." />
           </folding>
         </state>
       </provider>

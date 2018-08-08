@@ -3,5 +3,8 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/blackjack/playing-cards-assets" vcs="Git" />
+    <mapping directory="D:\Dropbox\clases\PycharmProjects\prueba\blackjack_ui" vcs="Git" />
+    <mapping directory="D:\Dropbox\clases\PycharmProjects\prueba\blackjack_ui\assets" vcs="Git" />
+    <mapping directory="D:\Dropbox\clases\PycharmProjects\prueba\blackjack_ui\card_assets" vcs="Git" />
   </component>
 </project>
